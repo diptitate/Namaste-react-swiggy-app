@@ -1,0 +1,42 @@
+
+Two types of Export and import-
+    1.Default Export/Import
+
+    export default Component/variable
+    import Component from "path" 
+
+    2. Named Export/Import-
+
+    export const Component;
+    import {Component} from "path"
+
+
+    Example of Default Export/Import-
+     
+     const Header = () =>{                    //Default Export
+
+     };
+
+     import Header from "path";               // Default import
+    =================================================================
+     Example of Named Export/Import-
+
+     export const Header = () =>{
+
+     };
+
+     import {Header} from "path";
+
+    *****Important Rule in Export and Import Component/ variable:-
+
+    - First Give & then Take.
+    - First export the Component & then import that Component.
+    -When you have to export multiple Components then use Named export/import.
+
+    ======================================================
+    > React is fast in DOM manipulation- faster to update DOM.
+
+
+    # React Hook #
+
+    > Normal Js utility functions.

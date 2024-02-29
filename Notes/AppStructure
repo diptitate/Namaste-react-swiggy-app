@@ -1,0 +1,24 @@
+/**
+ * Header 
+ *  - Logo
+ *  - Nav Items
+ * Body
+ *  - Search
+ *  - RestaurantContainer
+ *      - RestaurantCard
+ *          - Img
+ *          - Name of Resto, Star Rating, cuisine, delivery time
+ * Footer
+ *  - CopyRight
+ *  - Links
+ *  - Address
+ *  - Contact
+ * 
+ * * 
+
+https://github.com/rohanssawant/namaste-react/tree/ch6-Routes
+
+https://github.com/shubhamverma247/Namaste-React-New
+ */
+
+ 

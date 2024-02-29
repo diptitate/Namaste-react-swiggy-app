@@ -1,0 +1,112 @@
+1. Various way to add images into our app.
+
+Using full URL of the image for the web or any public images. eg:
+* <img src="https://logo.png" alt="image" />
+Adding image into our project drag your image into the project & import it into the desired component.eg:
+* import image from "./logo.png;
+export default function App() {
+    return <img sr={image} alt="Logo" />
+}
+The correct way to structure images in your projects is to add them in an "images" folder. 
+If you are using other assets then just images, you might want to add all in the assets folder. eg:
+ import image from "./logo.png;
+export default function App() {
+    return <img sr={image} alt="Logo" />
+}
+========================================================================================================
+
+2.What would happen when we console.log(useState())?
+
+console.log(useState()) we get an array of undefined, function
+console log(useState()) -> [undefined,function]
+where first term in an array is state is undefined & 
+second term in array is setState function is bound dispatchsetState.
+
+3. How will useEffect , behave if we dont add dependancy array?
+
+Syntax: useEffect(() => {}, [])
+        callback function, dependancy array.
+
+> useEffect is called after that component gets rendered.
+> if no dependancy array ==  then useEffect called on every render
+> if dependancy array is empty = [] => useEffect is called on initial render(just once) & on just once
+> if dependancy arry is not empty then useEffect is only the called when dependancy changes(updated).
+============================================================================================================
+
+4. What is SPA?
+
+Single Page Application (SPA) is a web application that dynamically updates the webpage with data from web server
+without reloading/refreshing the entire page. All the HTML, CSS, JS are retrieved in the initial load and other 
+data/resources can be loaded dynamically whenever required. An SPA is sometimes referred to as a single-page 
+interface (SPI).
+
+React have superpower that insted of reloading whole page, load only partial page when click on the link.
+Only changing the component insted of reloading whole page.Browser will not reload the whole page.
+===============================================================================================================
+
+5. What is difference between server side routing and clint side routing?
+
+In Server-side routing or rendering (SSR), every change in URL, http request is made to server and network fetch 
+the webpage, and replace the current webpage with the new one. For eg: You have index.html, about.html, 
+contact.html if we click on anchor tag of about.html it reloads the whole page and it send to the network call 
+of about.html and fetches the html data and rendered it to the browser.
+It send the request to server.
+
+In Client-side routing or rendering (CSR), during the first load, the webapp is loaded from server to client, 
+after which whenever there is a change in URL, the router library navigates the user to the new page without 
+sending any request to server. All Single Page Applications uses client-side routing.
+It does not send request to server.
+==================================================================================================================
+
+6. Why we are not using anchor link for navigation in React?
+
+ Becoz it reload the page, so always for navigation in react we use Link component provided by the React 
+ router dom library. It will not reload the page, but the component get refresh this superpower is provided by 
+ the React router dom through Link component.
+
+7. What is react-router-dom?
+
+It is a library used to create routes in the react project. This library provides useful hooks to create the routes in the react project.
+
+import { createBrowserRouter,RouterProvider,Outlet } from "react-router-dom";
+
+createBrowserRouter- contains the array of routes 
+RouterProvider- return the array of routes that is passed using createBrowserRouter
+outlet- is required for displaying the children with header and footer data.
+
+Here is an example
+
+const AppLayout = () => {
+  return (
+    <div className="app">
+      <Header />
+      <Outlet/>
+      <Footer/>
+    </div>
+  );
+};
+
+const appRouter = createBrowserRouter([
+  {
+    path:"/",
+    element:<AppLayout/>,
+    children:[
+      {
+        path:"/",
+        element:<Body/>,
+      },
+      {
+        path:"/about",
+        element:<About/>,
+      },
+      {
+        path:"/contact",
+        element:<Contact/>,
+      }
+    ],
+    errorElement:<Error/>,
+  }
+])
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<RouterProvider router={appRouter}/>);

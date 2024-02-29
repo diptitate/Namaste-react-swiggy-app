@@ -1,0 +1,28 @@
+React Lifecycle Method-----------
+============================================
+/*
+1.Render Phase-
+
+Parent Constructor
+Parent render
+    -First Constructor
+    -First render
+
+    -Second Constructor
+    -Second render
+
+2.Commit Phase-
+
+    <DOM UPDATED - IN SINGLE BATCH>
+
+    -First componentDidMount
+    -Second componentDidMount
+
+Parent componentDidMount    
+
+
+React batches the things (childern) at the time of render phase and then updates the DOM. so react is Fast
+
+
+*/
+=================================================

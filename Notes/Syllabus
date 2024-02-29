@@ -1,0 +1,474 @@
+--------------------------------------------------------------------------------------------------------------------------------
+Episode 01 - Inception
+
+@05:25 min -Visual Code Setup
+10:00 min -Hello World Program by using plain HTML
+14:25 min -Hello World Program using Vanilla JavaScript
+18:00 min -CDN links discussion
+32:00 - Hello World Program in React
+Separately writing JS code within <script> tags in HTML
+React.createElement explanation
+54:50 - Nested Elements
+1:02:00 -Array of children
+1:05:00 - Need of JSX
+         -Rearrangement of CDN files
+1:19:00 - React Library v/s Framework discussion
+1:21:00 - Advantages/Specialties of React
+1:23:00 - Session Recap
+ 
+-------------------------------------------------------------------------------------------------------------------------------
+Episode 2- Igniting our App 
+
+-Creating Github Repository and pushing code 
+ 03:00 min – Git commands (branch, commit, push origin)
+08:50 – first igniting the app
+14:30 – How React apps are so fast?
+16:00 – npm introduced
+21:00 – npm init 
+22:48 – jest (test  command)
+24:30 – Why we need package.json
+26:30 – Installing important packages, Bundler
+28:00 – create react app
+29:00 – Parcel introduced
+30:30 – “npm install -D parcel” command, Dev & Normal Dependency
+36:00 –( ~,  ^) - caret & tilde symbol importance
+40:00 – package-lock.json
+44:40 – Node Modules
+50:30 – Parcel dependency
+55:00 – git ignore command
+59:00 – npm install 
+1:05:00 – npx parcel, localhost
+01:12:15 – npm install react
+01:14:00- npm install react-dom
+01:15:30 – import React from “react”
+01:16:30 – import ReactDOM from “react-dom”
+01:23:00 – Deep explanation of Parcel
+01:33:00 – “Parcel is a beast”
+01:38:45 – Exploring Parcel documentation
+01:43:00 – System design question 
+01:45:00 – Prod bundles
+01:56:00 – Git ignore files (parcel_cache, node_modules)
+01:58:00 - support for older versions of Browsers
+02:03:00 – Government Websites- Old versions of browser
+02:08:00 – Why is Parcel fast?
+02:11:00 – Session Recap 
+------------------------------------------------------------------------------------------------------------------
+Episode 3 - Laying the Foundation 
+
+Detailed mention of topics and its timestamps
+01:04 – starting the project by using terminal
+03:00 – create a npm script for starting the project in dev world
+06:00 – Tips to start a project when you joined a new company 
+scripts in package.json discussion
+20:58 – JSX Introduced & its usage
+38:00 – Transpiling the JSX
+40:35 – Babel explanation
+JSX code
+45:00 to 49:00 - Babel’s explanation again but its more concise
+53:30 – usage of class & className in JSX
+58:00 – Visual Studio Code Extensions
+Prettier
+“Bracket Pair Colorization” Toggler
+ES Lint and “Better Comments”
+01:01:13 – React Component & its 2 ways of writing (Class based & Functional)
+01:16:00 – Nested Functional Component
+React Element
+React Component
+01:18:45 - Rendering a functional component 
+root.render(<HeadingComponent/>);
+01:22:30 – How to render a component inside another component
+01:25:05 – Component Composition 
+01:27:00 – Component without Arrow function
+Other ways of writing a component
+01:35:00 – How to put a react element inside a component?
+01:37:25 – How to put a React element inside a React element?
+01:46:55 – Cross Site Scripting, JSX Expressions, React Fragments
+02:05:00 – Session Recap 
+--------------------------------------------------------------------------------------------------------------
+Episode 4 – Talk is cheap, show me the code
+
+14:00 to 20:00 - Mock design, Various sections of a web page and its coding 
+23:00 – CSS coding
+29:00 – Created a Header element using React
+36:00 – CSS for body component & restaurant card
+38:33 – Inline style of writing CSS in JSX
+42:00 – JSX feature 
+45:00 – Adding an image to restaurant card
+49:00 – Coding inside App.js, adding details to restaurant card
+54:00 – Multiple Restaurant Cards
+59:25 – Making a Restaurant card with dynamic data, PROPS, Passing a prop to a component
+01:07:30 – Destructure the props
+01:14:00 – Install Chrome extension – JSON Viewer
+01:15:40 – Config Driven UI, Data layer & UI layer
+01:26:00 – Bug found in the API
+01:33:27 – Array + join(.) usage
+01:35:00 – Further modifying the CSS
+01:36:00 – Making the image dynamic too, cloudinary image, String concatenation
+01:44:14 – Restaurant card becomes Dynamic 
+01:47:00 – Optimizimg the code, Optional Chaining
+01:50:00 – usage of map() function
+01:56:00 – React feature 
+01:58:00 – Unique Key Property
+02:08:05 – Lists & Keys, react.js org
+02:12:00 – Session Recap
+----------------------------------------------------------------------------------------------------------------------------------------------
+Episode 5 - Let’s get Hooked
+
+01:43 – React advantages discussed
+03:51 – Create src folder
+11:15 – Create components folder
+12:45 – React File Structure
+20:00 – Header component moved to component Header.js, importing to the main file
+22:00 – Export the file
+26:00 – Export & import body component
+27:30 – Export & import Restaurant card component
+32:00 – create a utils folder 
+33:00 – create a file constants.js
+35:00 – create a MockData.js in Utils folder
+36:00 – export & import ‘resList’
+37:15 – 2 types of Import & Export: named export & multiple exports
+40:00 – Named Export
+42:39 – how to import the Named Export
+46:00 – Two types of Import & Export explained with examples
+47:00 – the whole program (App.js)
+47:50 – “can I use a default export along with named export?” – Home Work
+50:15 – Make our app “Dynamic”(Interactive)
+01:08:00 – filter() function
+01:13:00 – React superpowers explained, Data layer & UI layer, Virtual DOM, Diff Algorithm, Reconciliation 
+01:16:00 – Hooks introduced
+01:21:00 – useState
+01:31:00 – Hook Syntax
+01:37:00 – React Hook Explanation
+01:42:00 – Why React is popular?
+01:45:00 – Diff Algorithm, Reconciliation Algorithm, React Fiber 
+01:48:00 – Virtual DOM
+01:53:00 – Diff Algorithm & React Fiber
+01:59:00 – React Fiber Architecture (GitHub)
+02:06:00 – Array Destructuring 
+02:08:00 – Session Recap
+---------------------------------------------------------------------------------------------------------------------------------
+Episode 06 – Exploring the World
+
+02:00 – Monolith Architecture
+05:00 – Microservices
+07:00 – Separation of concerns
+09:00 – UI Microservice 
+17:50 – Explanation with diagram
+22:00 – useEffect()
+31:00 – fetch(), Promise
+32:00 – Inspect element, Swiggy Website
+33:00 – React JS syntax, newer approach to handle fetch()
+35:00 – CORS Policy
+36:00 – CORS Chrome Extension
+45:00 – Live Data API
+47:00 – Delete MockData.js file
+48:00 – Optional Chaining with an example
+50:40 – Spinning Loader
+52:40 – Shimmer UI
+56:00 – Shimmer Component Code
+58:30 – CSS Code for the Shimmer Component
+01:04:00 – Conditional Rendering
+01:06:00 – using Ternary Operator
+01:07:10 – Why do we need state variables? (useState)
+01:16:10 – useState() usage & explanation
+01:23:00 – Super Power of React
+01:29:00 – Reconciliation & Diff Algorithm Explained
+01:31:00 – Toggle the login & logout button
+01:39:00 – Build a Search Functionality
+01:46:00 – OnChange handler
+01:55:00 – Nice explanation of re-rendering
+01:57:00 – DOM Manipulation & Virtual DOM
+02:02:00 – Search functionality enhanced using toLowerCase() method
+02:12:00 – Homework (Assignment)
+----------------------------------------------------------------------------------------------------------------------------------
+Episode 07 – Finding the Path
+
+03:00 – useEffect hook explanation, Dependency Array
+15:40 – React Router 
+19:00 – Create Routing Configuration
+22:00 – Create About Component
+30:00 – Rafce
+33:00 – error (404 not found)
+37:00 – useRouteError Hook
+41:55 – Error.js
+44:20 – Children Routes
+51:00 – Outlet Keyword
+56:00 – Create links to Header Menu
+58:18 – Link Component 
+01:00:00 – Observe the performance
+01:03:55 – Single Page Applications (SPA)
+01:05:35 – 2 types of Routing: Client Side Routing & Server-side Routing
+01:08:00 – Session Recap till now 
+01:11:50 – Dynamic Routing
+01:13:35 – JSON Viewer
+01:40:30 – GraphQL Introduction
+01:52:40 – Dynamic Data coding 
+01:57:50 – Map function and its usage with a key 
+01:59:00 – Changing Restaurant ID’s
+02:00:00 – New SuperPower Hook: UseParams
+02:02:30 – Move API to constants.js
+02:04:00 - Dynamic Cards- to be clickable
+02:08:00 – Link Component
+02:13:00 – Session Recap
+---------------------------------------------------------------------------------------------------------
+Episode 8 - Lets get Classy!
+
+09:30 – Class based component example
+16:00 – Props, Props in Function based component, Destructure
+18:00 – How to write same example in a Class based component
+21:00 – Mentioned about “Super(props)”
+23:00 – What if you want more props?
+26:00 – How can we write local/state variables in a Function Component
+28:00 – how can we create state/local variable in Class component
+30:00 – “this.state” explained, Destructuring 
+34:00 – How do we create 2 state/local variables in both functional & class-based component
+37:05 – How to update the state variables in Class component 
+47:55 – Interview Question
+48:20 – Life cycle of Class based components
+50:00 – Detailed Explanation
+Parent, child – Constructor 
+Parent, child – Render
+58:25 – ComponentDidMount(){ }, Life cycle of a Parent-child relationship
+01:05:00 -ComponentDidMount() used for API calss
+01:07:00 – API calls inside useEffect()
+01:14:00 – this.props.name + “child constructor” 
+01:20:00 – React Lifecycle Methods Diagram
+01:21:00 – Why React is so fast?
+01:27:00 – DOM Manipulation 
+01:29:00 – Render phase, Commit phase
+01:33:00 – How to make API calls in class based components?
+01:36:00 – GitHub API call
+01:38:40 – How to update the json data into our web page
+01:43:38 – Coding UserClass.js component
+01:44:00 – How life cycle works here in this code
+01:45:00 - Debugger
+01:49:30 – ComponentDidUpdate()
+01:52:00 – Mounting Cycle
+01:55:00 – API rate limit exceeded
+01:56:15 – Unmounting Phase/cycle
+01:58:00 - in older days we were coding like this
+02:09:00 – How to write the same in class based component – ProfileClass.js
+02:15:00 – More Deeper we explore the old way of writing React Code
+02:18:00 – what is the use case of componentWillUnmount()?
+02:24:30 – Problem of Single Page Application
+02:30:00 – Senior Developer should know this
+02:32:00 – What will happen if we create setInterval inside useEffect
+02:36:30 – coding Profile.js 
+02:45:30 – Async in useEffect()
+---------------------------------
+Episode 9 – Optimizing our App
+
+02:00 – Custom Hooks, Single Responsibility Principle
+04:25 – Modularity
+09:23 – Hook
+20:00 – Create custom Hook – useRestaurantMenu 
+21:00 – write useEffect(), fetch(), How to optimize the code using custom hook?
+32:00 – Make a custom Hook & put as packages (examples)
+34:00 – A Hook to tell the user in Online or Offline
+36:30 -Under utils folder create useOnlineStatus.js
+47:07 – coding useOnlineStatus.js
+48:00 – usage of dev console on browser, Making the network offline
+50:42- How to build green dot & red dot to identify online or offline (Reusability feature of React)
+54:45 – Should we write “use” in a hook? Is it mandatory?
+58:45 – How to further optimize the code?
+01:03:00 – MakeMyTrip website
+01:06:00 – Make smaller modules, code-splitting, chunking, Dynamic Bundling, Lazy Loading
+01:17:30 – Lazy Loading
+01:25:25 – Suspense keyword
+Till 01:33:00 discussed how to optimize the code
+01:35:00 – Implementing Lazy Loading to other web pages
+01:36:00 – Interview Tips
+--------------------------------------------------------------------
+Episode 10 – Jo Diktha hai, Voh biktha hai
+
+02:22 – Default way of writing CSS
+03:00 – SCSS and SaSS
+04:40 – New way of writing CSS in a React application (Styled Components)
+06:30 – another way is using libraries & frameworks (Material UI, BootStrap, Chakra UI)
+10:30 – Ant Design
+11:30 – Tailwind CSS
+13:55 – Tailwind CSS website 
+16:15 – Installation- Parcel – PostCSS
+18:40 – tailwind.congig.js
+19:35 - configure PostCSS 
+23:00 – coding postCSSrc
+26:00 – Delete all CSS files & insert only 3 new lines (Tailwind)
+29:00 – In Tailwind CSS, usage of ‘className’
+38:25 – Tailwind Visual Studio Code extension – Tailwind Intellisense
+43:07 to 01:08:30 - Coding Tailwind CSS examples
+01:10:30 –   Pros & cons of Tailwind CSS discussed
+
+
+Episode 11 : Data is the new Oil 🚀
+
+00:50 – Higher Order Components
+06:50 – Logic to implement “Promoted” label
+18:25 – Explained: Higher Order Functions – Pure Functions
+20:00 – Add Tailwind CSS to make “Promoted’ label to look cool
+21:43 – Recap of Higher Order Components
+23:06 – Controlled & uncontrolled component
+23:14 – Lifting the state up
+23:30 – Importance of React applications discussed (UI Layer & Data Layer)
+25:50- Difference between a junior engineer & a senior
+32:05 – The correct data to be rendered on the page.
+33:00 – Usage of filter() function
+37:10 to 42:00 – Building Accordion and making it look cooler using Tailwind CSS
+43:00 to 55:00 – Creating a RestaurantCategory.js component & making it beautiful by using Tailwind
+55:10 to 01:10:30 – ItemList.js component & Accordion dropdown coding
+01:12:00 – Bug found in Swiggy API
+01:21:00 to 01:25:00 – Creating a new “+” button  and configuring it
+01:26:03 – Make a drop down menu clickable
+01:32:15 – Building a toggle button in the accordion
+01:36:10 – React Dev Tools – Chrome Extension
+01:40:15 – Profiling
+01:42:50 – Exploring ‘Components’ tab in inspect element window
+01:47:00 – Parent & child components – lifting the state up
+01:51:00 – Controlled & Uncontrolled Component
+02:05:20 – Lifting the State up
+02:08:50 – Props Drilling
+02:16:00 – React Context
+02:21:30 – UserContext
+02:24:00 – React Hook – useContext
+02:30:00 – In class based component, we don’t have Hooks, we can’t use useContext
+02:49:00 – input box – username 
+02:59:49 – Recap of context
+03:04:00 – An interview question
+-------------------------------------------------------------------------------------------------------------------------------- 
+Episode 12 - Lets build our store 🚀🚀 
+01:17 – Redux is not mandatory
+04:04 – React & Redux are two different libraries
+07:25 – Exploring Redux website
+10:18 – Exploring Redux-toolkit website
+17:15 – Diagram of RTK Architecture
+22:45 – Slices
+26:40 – Diagram Explanation – Reducer Function – action dispatch
+31:19 – Selector
+32:22 – Subscribing to the store
+33:48 – Recap of Redux Explanation
+39:500 to 44:38 – Overview of how & what we code in
+44:46 – npm install @reduxjs/toolkit 
+45:20 – npm I react-redux
+46:00 – Create a new file appStore.js in Utils folder
+50:25 – “Provider” usage
+53:00 – Import “createSlice” package from Redux toolkit
+54:00 to 01:02:00 – usage of “Reducers” in the code
+01:04:00 to 01:11:00  - Again write the code from scratch & walk through
+01:11:00 to 01:20:00 – items in the cart
+01:20:25 – Adding items in the cart, writing logic to the add button
+01:23:00  - use Dispatch() Hook and Dispatch() function
+01:30:00 – Building a cart page
+01:31:15 – Interview Question – A hack to know – onClick() function
+01:34:25 – Create a Cart.js component
+01:43:00 – Create a ‘clear cart’ button
+01:50:00 – An Interview Question
+01:55:25 – Reducer & Reducers 
+02:05:00 – Mutate the state, vanilla Redux diff b/w React Redux
+02:06:00 to 02:25:00 – Redux – Immer.js – Mutating the state in Redux
+02:25:00 – Redux Dev Tools
+02:35:00 -Home work – Redux Toolkit website- RTK Query
+At the end, Akshay shares his thoughts about Redux.
+---------------------------------------------------------------------------------------------------------------------- 
+Epsiode 13 – Time for the Test 🚀🚀🚀 
+00:00 to 08:30 – Scope of Testing and its importance 
+09:00 – Types of Testing
+16:50 – React Testing Library
+19:55 – Create React App
+23:40 – Jest Introduction
+25:30 – Installation of React Testing Library
+27:00 – Installation of Jest
+28:00 to 40:00 – Installing and configuring the Babel dependencies and configure the parcel
+41:38 - JS-DOM
+47:45 to 52:12 – Configure the Jest
+53:00 – Sample Testing of JS programs
+56:00 – VSCode -icons plugin installed
+57:00 - tests folder created
+59:00 – double underscore means dunder method
+01:02:00 – Syntax of a Test function 
+01:10:10 – Testing of React components, Contact.test.js file created
+                 getByRole, toBeInTheDocument() ,
+JSX isn’t enabled for testing
+01:23:35 – Enabling JSX using Babel
+01:30:10 – Installing a library - @testing-library/jest-dom
+01:35:30 – Test case to test is there a button exists
+01:38:45 – Beauty of “Jest”
+01:48:55 – getAllByRole(“textbox”) , getByPlaceholderText(“name”), 
+                 expect(inputBoxes.length).toBe(2);
+01:55:15 – “describe”, test or it usage, Unit Testing
+02:02:31 – push coverage folder to gitignore
+02:04:06 – Building Header.test.js file
+02:19:40 – Testing cart items
+02:21:55 – “REGEX” use cases
+02:24:30 – how to simulate “click” button
+02:27:45 – Test cases for “Restaurant-card” component
+(How to pass props & do unit testing)
+02:30:25 – mock data
+02:40:22 – conclusion of Unit Testing
+02:41:15 – how to do “Integration Testing”
+Testing the feature of “Search” 
+02:48:28 – fetch() API is not JS. Its in the browser
+02:58:32 – Running the test cases each time when something in code changes, act function
+03:06:55 – getByTestId 
+03:14:31 – getAllBytestId(“rescard”)
+03:22:13 – Test for “top-rated restaurants list”
+03:27:15 – beforeAll(()), beforeEach(()) , afterAll(()), afterEach(())
+03:32:25 – Integration Testing of adding a item to cart
+
+
+Episode 14 - NetflixGPT - The Beginning
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+0:00 to 8:35 - Introduction
+
+08:36 - Part -1
+How to create a React Project using “Create React App”
+14:00 - npm start
+Setting up the Tailwind CSS to our App
+19:00 - how to install Tailwind CSS
+Netflix website features noted which are need to be cloned
+
+33:00 - Part -2
+Create a new Github Repository & push the code
+Login & headers components created 
+Body.js component created 
+42:18 - Setup Routing
+50:45 - Netflix Logo inserted 
+55:35 - Login form
+01:10:10 - Create a Sign up form
+01:23:00 - “formik” library for forms
+
+01:27:10 - Part -3
+      
+Form Validation
+useRef hook
+01:34:00 - Regex validation
+useRef hook usage
+Showing error message while log in
+
+01:57:35 - Part - 4
+Authentication
+Firebase 
+02:14:00 - Build command
+02:14:52 - Deploying
+02:16:35 - 3 commands to deploy application
+02:21:00 - Create Signup user account
+Reading Firebase Documentation
+02:28:00 - Sign-in/ Sign-up Logic
+
+02:29:46 - Part - 5
+02:39:00 to 02:42:00 - User successfully registered
+02:43:20 - Sign in logic
+02:50:00 - Firebase error - user not found
+
+
+02:52:05 - Part - 6
+Setup Redux store, userSlice
+03:12:20 - useDispatch()
+03:20:20 - useNavigate()
+03:22:35 - building signout feature
+03:33:30 - Manage users
+03:40:00 - Adding user profile pic 
+03:42:48 - Fixing a Bug!
+
+03:49:30 - Part - 8
+TMDB APIs
+--------------------------------------------------------------------------------------------------------------- 

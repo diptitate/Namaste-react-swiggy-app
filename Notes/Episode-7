@@ -1,0 +1,18 @@
+===========useEffect===========
+Syntax: useEffect(() => {}, [])
+        callback function, dependancy array.
+
+> useEffect is called after that component gets rendered.
+> if no dependancy array ==  then useEffect called on every render
+> if dependancy array is empty = [] => useEffect is called on initial render(just once) & on just once
+> if dependancy arry is not empty then useEffect is only the called when dependancy changes(updated).
+
+=================useState=============
+> can not use useState inside if, for loop.
+> can not use useState inside a function.
+
+=================================
+> we saw how to use Routes, Error element, useRouteError- will give the information about the error that you have.
+> our app is a server side routing.
+> single page application
+

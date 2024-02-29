@@ -1,0 +1,10 @@
+Redux Toolkit
+
+- Install @reduxjs/toolkit and react-redux
+- npm install @reduxjs/toolkit  
+- npm i react-redux
+- Built our store
+- Connect our store to our app
+- Slice(cartSlice)- create a slice, add a slice to store 
+- dispatch(action)
+- Selector- subscribe to the store using selector
